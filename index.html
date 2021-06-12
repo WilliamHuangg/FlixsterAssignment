@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flixster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="navbarIMG">
+            <!-- <img src="https://image.freepik.com/free-vector/popcorn-logo_9845-76.jpg"/> -->
+        </a>
+        <a class="navbarNAME" href="index.html">
+            <h1>Flixster</h1>
+        </a>
+    </div>
+
+    <div id="searchbar">    
+        <form>
+            <input type="text" name="search" id="input" placeholder="Search for a movie"/>
+        </form>
+        <button id="clearSearch" class="navbutton" href="index.html">Clear Search</button>
+    </div>
+    <!-- <form> -->
+        <!-- <label>Search for a movie:</label> -->
+        <!-- <input type="text" name="search" id="input" placeholder="Search for a movie"/> -->
+        <!-- <button id="mainButton" class="navbutton">Search</button> -->
+        <!-- <button id="clearSearch" class="navbutton" href="index.html">&times;</button> -->
+
+    <!-- </form> -->
+
+    <!-- <button id="clearSearch" class="navbutton" href="index.html">Clear Search</button> -->
+
+
+    <div id="text-display">
+        <h1>Now Playing</h1>
+    </div>
+
+
+    <div id="body-area">
+        <!-- <h2>Now Playing</h2> -->
+    </div>
+
+    
+    <div id="showMore">
+        <button id="showMoreCurrent" class="showMoreBtn">Show More Current Movies</button>
+        <button id="showMoreSearch" class="showMoreBtn">Show More Searched Movies</button>
+    </div>
+
+    <div id="modal-area">
+        <!-- <button id="modalBtn">Open Modal</button> -->
+        <div id="myModal" class="modal">
+            <span class="close">Close</span>        
+            <div class="modal-content">
+                <span class="close">&times;</span>        
+                <h3>Title of Movie</h3>
+                <p>Movie Backdrop Poster</p>
+                <p>Movie Run Time</p>
+                <p>Release Date</p>
+                <p>Movie Genre</p>
+                <p>Movie Summary</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
